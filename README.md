@@ -1,4 +1,4 @@
-# Projet-ing-nierie-documentaire
+# Projet-ingenierie-documentaire
 Notre projet consiste à transformer un pièce de théâtre sous forme de texte brut à un format html.
 
 # Etapes du projet
