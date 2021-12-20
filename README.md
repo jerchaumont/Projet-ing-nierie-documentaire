@@ -1,4 +1,4 @@
-# Projet ingénierie documentaire
+# Documentary engineering project
 Our project consists of transforming a play from plain text to html format, by using XML and a XSLT stylesheet. 
 
 ## Development Context
