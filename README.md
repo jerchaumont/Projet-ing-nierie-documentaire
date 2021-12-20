@@ -15,6 +15,6 @@ didascalies et les répliques.
 Le texte brut contenait des metadatas en introduction qui n’étaient pas utilisées pour notre projet,
 nous les avons donc enlevées manuellement.
 # Expressions régulières:
-- Regex pour les scènes:
+- Regex pour les scènes:`r'(SCENE [A-Z]{2,8}\.)'`
 - Regex pour les personnages:
 - Regex pour les répliques:
