@@ -78,7 +78,6 @@ with open (inputFile, 'r', encoding="utf-8") as xml_file: ######pour windows
 
         #didascalie match
         d = re.match(r'(\((.+)\))|(\,(.+))', line)
-        #d1 = re.match(r'(((A-Z)\,)/)(.+)\.)', line)
         if d:
             didascalie = ET.SubElement(scene, 'didascalie')
             didascalie.text = d.group()
