@@ -50,5 +50,5 @@ Then, the rest of the code follows the same logic. It generates a [XML file](pro
 ### Create the XSL stylesheet
 In our [XSL stylesheet](project_play/stylesheet.xsl), we use the current stylesheet `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">`. Then we have to associate the different elements with our XML tree. 
 
-Finally, the expected result can be displayed with the html file.
+Finally, the expected result can be displayed with the [HTML file] (project_play/XSL Output.html).
 
