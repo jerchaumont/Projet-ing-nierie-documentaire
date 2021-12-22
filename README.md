@@ -21,7 +21,7 @@ so we removed them manually.
 ## Regular expressions
 - Regex for scenes: `r'(SCENE [A-Z]{2,8}\.)'`
 - Regex for characters: `r'([A-Z]{6,8})'`
-- Regex for stage directions: `r'(\((.+)\))|(\,(.+))'`
+- Regex for stage directions: `r'(\((.+)\))'`
 - Regex for lines: `r'(.+)'`
 
 ## Automate work with the python script
