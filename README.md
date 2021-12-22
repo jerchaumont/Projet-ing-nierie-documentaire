@@ -25,7 +25,7 @@ so we removed them manually.
 - Regex for lines: `r'(.+)'`
 
 ## Automate work with the python script
-Firstly we generate a [new text file](project_play/new_file.txt) without line breaks (using the [python script](project_play/myscript1.py), which will subsequently facilitate our markup of the text in the XML file.
+Firstly we generate a [new text file](project_play/new_file.txt) by modifying the line breaks (using the [python script](project_play/myscript1.py), which will subsequently facilitate our markup of the text in the XML file.
 ### Create the XML file
 In order to create the XML file with a [python script](project_play/myscript1.py), we use the `inputFile` and the `ElementTree` modules. Here is an snippet from our code which illustrates the methods used:
 ```python
