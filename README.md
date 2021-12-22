@@ -1,5 +1,5 @@
 # Documentary engineering project
-Our project consists of transforming a play from plain text to html format by using XML and a XSLT stylesheet, with the help of a python script. We chose the play _L'amour et la raison_ by [Pigault-Lebrun](https://fr.wikipedia.org/wiki/Pigault-Lebrun). The plain text of the play can be foud on the [Project Gutenger](https://www.gutenberg.org/ebooks/26810).
+Our project consists of transforming a play from plain text to html format by using XML and a XSLT stylesheet, with the help of a python script. We chose the play _L'amour et la raison_ by [Pigault-Lebrun](https://fr.wikipedia.org/wiki/Pigault-Lebrun). The plain text of the play can be found on the [Project Gutenberg](https://www.gutenberg.org/ebooks/26810).
 
 
 ## Development Context
