@@ -3,7 +3,7 @@ Our project consists of transforming a play from plain text to html format, by u
 
 
 ## Development Context
-This project was developed by Chloé Luthier, Laure Torello and Jeremy Chaumont as part of the _Ingénierie documentaire_ course, taught by Michael Piotrowski and Moritz Feichtinger (Master in Digital Humanities, University of Lausanne) - Fall 2021.
+This project was developed by [Chloé Luthier](https://github.com/cluthier), [Laure Torello](https://github.com/ltorello) and [Jeremy Chaumont](https://github.com/jerchaumont) as part of the _Ingénierie documentaire_ course, taught by Michael Piotrowski and Moritz Feichtinger (Master in Digital Humanities, University of Lausanne) - Fall 2021.
 
 # Project stages
 1. Clean up the text by removing metadata
