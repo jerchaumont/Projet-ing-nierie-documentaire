@@ -45,7 +45,7 @@ with open (inputFile, 'r', encoding="utf-8") as xml_file: ######pour windows
             scene.text = a.group()
             #countScene+=1
 ```  
-Then, the rest of the code follows the same logic. It generates a xml file, to wich we just have to add a XSL stylesheet.  
+Then, the rest of the code follows the same logic. It generates a xml file, to which we just have to add a XSL stylesheet.  
 
 ### Create the XSL stylesheet
 _Not done yet_
