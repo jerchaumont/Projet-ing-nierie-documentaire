@@ -25,9 +25,9 @@ so we removed them manually.
 - Regex for lines: `r'(.+)'`
 
 ## Automate work with the python script
-Firstly we generate a new text file without line breaks, which will subsequently facilitate our markup of the text in the XML file.
+Firstly we generate a [new text file](project_play/new_file.txt) without line breaks (using the [python script](project_play/myscript1.py), which will subsequently facilitate our markup of the text in the XML file.
 ### Create the XML file
-In order to create the XML file with a python script, we use the `inputFile` and the `ElementTree` modules. Here is an snippet from our code which illustrates the methods used:
+In order to create the XML file with a [python script](project_play/myscript1.py), we use the `inputFile` and the `ElementTree` modules. Here is an snippet from our code which illustrates the methods used:
 ```python
 tree = ET.ElementTree(element = ET.Element('document'))
 root = tree.getroot()
@@ -45,10 +45,10 @@ with open (inputFile, 'r', encoding="utf-8") as xml_file: ######pour windows
             scene.text = a.group()
             #countScene+=1
 ```  
-Then, the rest of the code follows the same logic. It generates a XML file, to which we just have to add a XSL stylesheet.  
+Then, the rest of the code follows the same logic. It generates a [XML file](project_play/xmlfile2.xml), to which we just have to add a XSL stylesheet.  
 
 ### Create the XSL stylesheet
-In our XSL stylesheet, we use the current stylesheet `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">`. Then we have to associate the different elements with our XML tree. 
+In our [XSL stylesheet](project_play/stylesheet.xsl), we use the current stylesheet `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">`. Then we have to associate the different elements with our XML tree. 
 
 Finally, the expected result can be displayed with the html file.
 
