@@ -77,20 +77,25 @@ with open (inputFile, 'r', encoding="utf-8") as xml_file: ######pour windows
         
 
         #didascalie match
-        d = re.match(r'(\((.+)\))|(\,(.+))', line)
-        if d:
+        d1 = re.match(r'(\((.+)\))', line)
+        d2 = re.match(r'[A-Z]+,(.+)', line)
+        #d1 = re.match(r'(((A-Z)\,)/)(.+)\.)', line)
+        if d1:
+            d = re.sub(r'\((.+)\)', r'\1', line)
             didascalie = ET.SubElement(scene, 'didascalie')
-            didascalie.text = d.group()
+            didascalie.text = d
             #countDidascalie+=1
+        elif d2:
+            d = re.sub(r'[A-Z]+, (.+)', r'\1', line)
+            didascalie = ET.SubElement(scene, 'didascalie')
+            didascalie.text = d
+            
         #text
         e = re.match(r'(.+)', line)
-        if e and not a and not b and not c and not d:
+        if e and not a and not b and not c and not d1 and not d2:
             replique = ET.SubElement(scene, 'replique')
             replique.text = e.group()
 
 
 with open ('xmlfile2.xml', 'wb') as myxml:
     tree.write(myxml, encoding='utf-8', xml_declaration=True)
-
-
-
